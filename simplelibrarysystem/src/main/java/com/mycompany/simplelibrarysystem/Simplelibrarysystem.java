@@ -11,11 +11,11 @@ public class Simplelibrarysystem {
 //    }
 
     public static void main(String[] args) {
-        double income = 57640, tax;
+        double income = 30000, tax;
         if(income <= 15000) {
             tax = 0;
         }
-        else if (income <=25000) {
+        else if (income <= 25000) {
             tax = 0.05 * (income - 15000);
         }
         else {

@@ -50,6 +50,8 @@ public class Simplelibrarysystem {
                     requestType = sc.nextLine();
             }
         }
+
+        sc.close();
         
     }
     

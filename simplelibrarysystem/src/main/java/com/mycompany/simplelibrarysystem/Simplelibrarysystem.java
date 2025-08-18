@@ -8,7 +8,7 @@ public class Simplelibrarysystem {
         
         Scanner sc = new Scanner(System.in);
         
-        boolean isAvailable = false;
+        boolean isAvailable = true;
         String requestType;
         String isLate;
         int lateFee = 5;
@@ -46,7 +46,7 @@ public class Simplelibrarysystem {
                     break;
 
                 default:
-                    System.out.println("Error! Please type in BORROW or RETURN.");
+                    System.out.print("Error! Please type in BORROW or RETURN: ");
                     requestType = sc.nextLine();
             }
         }
